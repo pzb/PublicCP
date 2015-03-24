@@ -1,4 +1,4 @@
-{::options template="assets/PublicCP" /}
+{::options template="docs/PublicCP" /}
 
 # Contents
 {:.no_toc}
