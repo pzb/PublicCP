@@ -45,6 +45,8 @@ FILES.each do |fname|
           # Special case: existing content is "No stipulation.", then replace
           if headings[heading].strip == "No stipulation."
             headings[heading] = buffer.strip
+          elsif (buffer.strip == "No stipulation.") && (headings[heading].strip.length > 0)
+            # Do not append content with "No stipulation.", as that makes no sense
           else
             headings[heading] += "\n" + buffer.strip + "\n"
           end
