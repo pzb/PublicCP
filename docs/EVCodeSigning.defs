@@ -1,0 +1,12 @@
+EV Code Signing Certificate: A certificate that contains subject information specified in these Guidelines and that has been validated in accordance with these Guidelines.
+EV Code Signing Object: An EV Code Signing Certificate issued by a CA or an EV Signature provided by a Signing Authority.
+EV Signature: An encrypted electronic data file which is attached to or logically associated with other electronic data and which (i) identifies and is uniquely linked to the signatory of the electronic data, (ii) is created using means that the signatory can maintain under its sole control, and (iii) is linked in a way so as to make any subsequent changes that have been made to the electronic data detectable.
+
+#CONFLICT#Certification Authority: An organization agreeing to be bound by these Guidelines that is responsible for the creation, issuance, revocation, and management of EV Code Signing Certificates. Where the CA is also the Root CA, references to the CA will be synonymous with Root CA.
+
+Issuer: A CA providing an EV Code Signing Certificate to a Subscriber or a Signing Authority that provides an EV signature for a Subscriber.
+Timestamp Authority: An organization that timestamps data, thereby asserting that the data existed at the specified time;
+
+#CONFLICT#Signing Authority: An organization that signs code on behalf of a Subscriber.
+
+#CONFLICT#Subscriber: The Subject of the EV Code Signing Certificate. A Subscriber is the entity responsible for distributing the software but does not necessarily hold the copyright to the software.

@@ -1,0 +1,43 @@
+Anti-Malware Organization: An entity that maintains information about Suspect Code and/or develops software used to prevent, detect, or remove malware.
+
+#CONFLICT#Application Software Supplier: A supplier of software or other relying-party application software that displays or uses Code Signing Certificates, incorporates Root Certificates, and adopts these Requirements as all or part of its requirements for participation in a root store program. 
+
+#CONFLICT#Certification Authority: An organization subject to these Requirements that is responsible for a Code Signing Certificate and, under these Requirements, oversees the creation, issuance, revocation, and management of Code Signing Certificates.  Where the CA is also the Root CA, references to the CA are synonymous with Root CA.
+
+Certificate Beneficiaries: As defined in section 7.1.1.
+
+#CONFLICT#Certificate Requester: A natural person who is the Applicant, employed by the Applicant, an authorized agent who has express authority to represent the Applicant, or the employee or agent of a third party (such as software publisher) who completes and submits a Certificate Request on behalf of the Applicant.
+
+Code Signature: A Signature logically associated with a signed Object.
+Code Signing Certificate: A digital certificate issued by a CA that contains a code Signing EKU, contains the anyExtendedKeyUsage EKU, or omits the EKU extension and is trusted in an Application Software Provider’s root store to sign software objects. [NOTE: Appendix B, subsection (3) of Appendix B requires the presence of the codeSigning EKU and prohibits use of the anyExtendedKeyUsage EKU.]
+Declaration of Identity: A written document that consists of the following: 1.	the identity of the person performing the verification; 2.	a signature of the Applicant; 3.	a unique identifying number from an identification document of the Applicant; 4.	the date of the verification; and 5.	a signature of the Verifying Person. 
+
+#CONFLICT#Effective Date: The date this document is adopted as a root store requirement by an Application Software Supplier.
+
+High Risk Region of Concern (HRRC): As set forth in Appendix D, a geographic location where the detected number of Code Signing Certificates associated with signed Suspect Code exceeds 5% of the total number of detected Code Signing Certificates originating or associated with the same geographic area.  
+
+#CONFLICT#Issuer: The CA providing a Code Signing Certificate to the Subscriber.
+
+Individual Applicant: An Applicant who is a natural person and requests a Certificate that will list the Applicant’s legal name as the Certificate’s Subject.
+Lifetime Signing OID: An optional extended key usage OID (1.3.6.1.4.1.311.10.3.13) used by Microsoft Authenticode to limit the lifetime of the code signature to the expiration of the code signing certificate. 
+Object: A contiguous set of bits that has been or can be digitally signed with a Private Key that corresponds to a Code Signing Certificate; also referred to herein as “Code”.
+Organizational Applicant: An Applicant that requests a Certificate with a name in the Subject field that is for an organization and not the name of an individual.  Organizational Applicants include private and public corporations, LLCs, partnerships, government entities, non-profit organizations, trade associations, and other legal entities.
+Platform: The computing environment in which an Application Software Supplier uses Code Signing Certificates, incorporates Root Certificates, and adopts these Requirements.
+QGIS: As defined in the EV SSL Guidelines.
+QIIS: As defined in the EV SSL Guidelines.
+Registration Identifier: The unique code assigned to an Applicant by the Incorporating or Registration Agency in such entity’s Jurisdiction of Incorporation or Registration.
+
+#CONFLICT#Requirements: This document, the General Baseline Requirements, and the Network and Certificate System Security Requirements.
+
+Signature: An encrypted electronic data file which is attached to or logically associated with other electronic data and which (i) identifies and is uniquely linked to the signatory of the electronic data, (ii) is created using means that the signatory can maintain under its sole control, and (iii) is linked in a way so as to make any subsequent changes that have been made to the electronic data detectable.
+Signing Service: An organization that signs an Object on behalf of a Subscriber using a Private Key associated with a Code Signing Certificate.
+
+#CONFLICT#Subscriber: The Subject of a Code Signing Certificate.  A Subscriber is the entity responsible for distributing the software but does not necessarily hold the copyright to the software.
+
+Suspect Code: Code that contains malicious functionality or serious vulnerabilities, including spyware, malware and other code that installs without the user's consent and/or resists its own removal, and code that can be exploited in ways not intended by its designers to compromise the trustworthiness of the Platforms on which it executes.
+Takeover Attack: An attack where a Signing Service or Private Key associated with a Code Signing Certificate has been compromised by means of fraud, theft, intentional malicious act of the Subject’s agent, or other illegal conduct.
+
+#CONFLICT#Timestamp Authority: A service operated by the CA or a delegated third party for its own code signing certificate users that timestamps data using a certificate chained to a public root, thereby asserting that the data (or the data from which the data were derived via a secure hashing algorithm) existed at the specified time. If the Timestamp Authority is delegated to a third party, the CA is responsible that the delegated third party complies with these guidelines.
+
+Timestamp Certificate: A certificate issued to a Timestamp Authority to use to timestamp data.
+Verifying Person: A notary, attorney, Latin notary, accountant, individual designated by a government agency as authorized to verify identities, or agent of the CA, who attests to the identity of an individual. 
