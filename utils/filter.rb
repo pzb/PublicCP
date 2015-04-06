@@ -25,7 +25,8 @@ end
 # A Section is text between a heading and a marker
 # that starts with "{:.}".
 
-ALLOWED_SECTIONS=["no_toc", "rfc5280", "common", "br", "generic"]
+#ALLOWED_SECTIONS=["no_toc", "rfc5280", "common", "br", "generic"]
+ALLOWED_SECTIONS=[]
 
 buffer = ''
 found_sections = Accumulator.new

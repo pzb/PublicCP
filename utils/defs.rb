@@ -62,6 +62,13 @@ FILES.each do |fname|
   end
 end
 
+# Put out all "abbreviation" defintions for Kramdown to use
+# These do not directly show in the output
+terms.each do |term, defstr|
+  puts "*[#{term}]: #{defstr}"
+end
+puts
+
 terms.sort_by{|k,v| k.downcase}.each do |term, defstr|
   puts term
   print ": #{defstr}\n\n"

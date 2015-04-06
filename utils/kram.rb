@@ -5,7 +5,7 @@ input_fn = ARGV[0]
 output_fn = ARGV[1]
 
 s = File.read(input_fn)
-html_doc = Kramdown::Document.new(s).to_html
+html_doc = Kramdown::Document.new(s, :entity_output => :symbolic).to_html
 
 if output_fn && output_fn.length > 1
 	File.open(output_fn, 'w') {|f| f.write(html_doc)}
