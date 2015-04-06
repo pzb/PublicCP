@@ -260,6 +260,9 @@ ul#markdown-toc ul {
 	ins abbr[title] { text-decoration: underline; }
 }
 
+/* Highlight changes */
+del { background-color: #f08080; }
+ins { background-color: #90ee90; }
 
 
 /* End */ 
