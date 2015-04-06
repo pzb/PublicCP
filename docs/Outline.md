@@ -1,5 +1,5 @@
 # Contents
-# 1 INTRODUCTION
+# 1. INTRODUCTION
 ## 1.1 Overview
 ### 1.1.1 Compliance
 ### 1.1.2 Types of Certificates
@@ -29,12 +29,12 @@
 ### 1.5.3 Person determining CPS suitability for the policy
 ### 1.5.4 CPS approval procedures
 ## 1.6 Definitions and acronyms
-# 2 PUBLICATION AND REPOSITORY RESPONSIBILITIES
+# 2. PUBLICATION AND REPOSITORY RESPONSIBILITIES
 ## 2.1 Repositories
 ## 2.2 Publication of certification information
 ## 2.3 Time or frequency of publication
 ## 2.4 Access controls on repositories
-# 3 IDENTIFICATION AND AUTHENTICATION
+# 3. IDENTIFICATION AND AUTHENTICATION
 ## 3.1 Naming
 ### 3.1.1 Types of names
 ### 3.1.2 Need for names to be meaningful
@@ -55,12 +55,12 @@
 ### 3.2.3 Authentication of individual identity
 ### 3.2.4 Non-verified subscriber information
 ### 3.2.5 Validation of authority
-### 3.2.6 Criteria for Interoperation
+### 3.2.6 Criteria for interoperation
 ## 3.3 Identification and authentication for re-key requests
 ### 3.3.1 Identification and authentication for routine re-key
 ### 3.3.2 Identification and authentication for re-key after revocation
 ## 3.4 Identification and authentication for revocation request
-# 4 CERTIFICATE LIFE-CYCLE OPERATIONAL REQUIREMENTS
+# 4. CERTIFICATE LIFE-CYCLE OPERATIONAL REQUIREMENTS
 ## 4.1 Certificate Application
 ### 4.1.1 Who can submit a certificate application
 #### 4.1.1.1 Private Organization Subjects
@@ -116,7 +116,7 @@
 ### 4.9.4 Revocation request grace period
 ### 4.9.5 Time within which CA must process the revocation request
 ### 4.9.6 Revocation checking requirement for relying parties
-### 4.9.7 CRL issuance frequency
+### 4.9.7 CRL issuance frequency (if applicable)
 #### 4.9.7.1 For the status of Subscriber Certificates
 #### 4.9.7.2 For the status of Subordinate CA Certificates
 ### 4.9.8 Maximum latency for CRLs (if applicable)
@@ -138,7 +138,7 @@
 ## 4.12 Key escrow and recovery
 ### 4.12.1 Key escrow and recovery policy and practices
 ### 4.12.2 Session key encapsulation and recovery policy and practices
-# 5 FACILITY, MANAGEMENT, AND OPERATIONAL CONTROLS
+# 5. FACILITY, MANAGEMENT, AND OPERATIONAL CONTROLS
 ## 5.1 Physical controls
 ### 5.1.1 Site location and construction
 ### 5.1.2 Physical access
@@ -186,7 +186,7 @@
 ### 5.7.3 Entity private key compromise procedures
 ### 5.7.4 Business continuity capabilities after a disaster
 ## 5.8 CA or RA termination
-# 6 TECHNICAL SECURITY CONTROLS
+# 6. TECHNICAL SECURITY CONTROLS
 ## 6.1 Key pair generation and installation
 ### 6.1.1 Key pair generation
 #### 6.1.1.1 CA Key Pair Generation
@@ -246,7 +246,7 @@
 ### 6.7.3 Remote Access/External Information Systems
 ### 6.7.4 Penetration Testing
 ## 6.8 Time-stamping
-# 7 CERTIFICATE, CRL, AND OCSP PROFILES
+# 7. CERTIFICATE, CRL, AND OCSP PROFILES
 ## 7.1 Certificate profile
 ### 7.1.1 Version number(s)
 ### 7.1.2 Certificate extensions
@@ -275,7 +275,7 @@
 ## 7.3 OCSP profile
 ### 7.3.1 Version number(s)
 ### 7.3.2 OCSP extensions
-# 8 COMPLIANCE AUDIT AND OTHER ASSESSMENTS
+# 8. COMPLIANCE AUDIT AND OTHER ASSESSMENTS
 ## 8.1 Frequency or circumstances of assessment
 ## 8.2 Identity/qualifications of assessor
 ## 8.3 Assessor's relationship to assessed entity
@@ -283,7 +283,7 @@
 ## 8.5 Actions taken as a result of deficiency
 ## 8.6 Communication of results
 ## 8.7 Self-Audits
-# 9 OTHER BUSINESS AND LEGAL MATTERS
+# 9. OTHER BUSINESS AND LEGAL MATTERS
 ## 9.1 Fees
 ### 9.1.1 Certificate issuance or renewal fees
 ### 9.1.2 Certificate access fees
