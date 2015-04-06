@@ -1,0 +1,6 @@
+#!/bin/bash
+echo '### 1.6.1 Definitions' > CPdefs.md
+../utils/defs.rb CP/BaselineRequirements.defs CP/SecurityRequirements.defs CP/ExtendedValidation.defs CP/EVCodeSigning.defs CP/Internal.defs >> CPdefs.md
+echo >> CPdefs.md
+echo '### 1.6.2 Acronyms' >> CPdefs.md
+../utils/defs.rb CP/BaselineRequirements.acro CP/ExtendedValidation.acro CP/Internal.acro >> CPdefs.md
