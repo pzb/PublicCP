@@ -7,14 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/normalize.css">
     <link rel="stylesheet" href="assets/main.css">
+    <!--[if !mso]> -->
+    <link rel="stylesheet" href="assets/not-broken.css">
+    <!-- <![endif]-->  
   </head>
   <body>
 <!--[if mso]>
   <div class="WordPageLayout"> <%# This is needed because Word does not allow margin on html or body #%>
 <![endif]-->
+  <div class="CoverPage">
+    <h1>Public Certificate Policy</h1>
+    <p class="date">Generated on <%= Time.now.utc.strftime("%B %e, %Y at %H:%M") %> UTC.</p>
+  </div>
   <%= @body %>
 <!--[if mso]>
   </div>
-<![endif]-->
+-->
   </body>
 </html>

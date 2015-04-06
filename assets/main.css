@@ -128,12 +128,17 @@ textarea {
 @page :left { 
 	font-family: "Crimson", serif;
 	font-size: 8pt;
-	@bottom-left { content: counter(page); }
 }
 @page :right { 
 	font-family: "Crimson", serif;
 	font-size: 8pt;
-	@bottom-right { content: counter(page); }
+}
+
+@font-face {
+  font-family: "Oxygen Mono";
+  src: url("OxygenMono-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -185,6 +190,16 @@ textarea {
   font-style: italic;  
 }
 
+/* Override WeasyPrint's default "monospace" */
+code { font-family: "Oxygen Mono", monospace; font-size: 9pt;}
+kbd { font-family: "Oxygen Mono", monospace; font-size: 9pt;}
+listing { font-family: "Oxygen Mono", monospace; font-size: 9pt;}
+plaintext { font-family: "Oxygen Mono", monospace; font-size: 9pt;}
+pre { font-family: "Oxygen Mono", monospace; font-size: 9pt;}
+samp { font-family: "Oxygen Mono", monospace; font-size: 9pt;}
+tt { font-family: "Oxygen Mono", monospace; font-size: 9pt;}
+xmp { font-family: "Oxygen Mono", monospace; font-size: 9pt;}
+
 html {
 }
 
@@ -225,6 +240,27 @@ ul#markdown-toc ul {
   padding-left: 0;
   list-style-type: none;  
 }
+
+.CoverPage {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  page-break-after: always;
+}
+
+.CoverPage h1 {
+  font-size: 36pt;
+}
+
+/* Lots of hacks to avoid underlining every abbr in print */
+@media print {
+	abbr[title] { text-decoration: none; border-bottom: none;}
+	:link abbr[title] { text-decoration: underline; }
+	del abbr[title] { text-decoration: line-through; }
+	ins abbr[title] { text-decoration: underline; }
+}
+
+
 
 /* End */ 
 
@@ -345,10 +381,6 @@ ul#markdown-toc ul {
 
     a[href]:after {
         content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
     }
 
     /*
