@@ -171,7 +171,7 @@ If the Applicant requests a Certificate that will contain Subject Identity Infor
 #### 3.2.2.1 Identity
 If the Subject Identity Information is to include the name or address of an organization, the CA SHALL verify the identity and address of the organization and that the address is the Applicant's address of existence or operation.  The CA SHALL verify the identity and address of the Applicant using documentation provided by, or through communication with, at least one of the following:
 
-1. A <ins>G</ins><del>g</del>overnment <ins>A></ins><del>a</del>gency in the <del>jurisdiction of the</del> Applicant's <del>legal creation, existence, or recognition<del><ins>Jurisdiction of Incorporation or Jurisdiction of Registration</ins>;
+1. A <ins>G</ins><del>g</del>overnment <ins>A</ins><del>a</del>gency in the <del>jurisdiction of the</del> Applicant's <del>legal creation, existence, or recognition</del><ins>Jurisdiction of Incorporation or Jurisdiction of Registration</ins>;
 2. A third party database that is periodically updated and considered a Reliable Data Source;
 3. A site visit by the CA or a third party who is acting as an agent for the CA; or
 4. An Attestation Letter.
