@@ -8,7 +8,7 @@ BaselineRequirements.pdf: BaselineRequirements.html
 	weasyprint $< $@
 
 clean:
-	rm *.html *.pdf
+	rm -f *.html *.pdf def.md BaselineRequirements-merged.md
 
 defs.md:
 	echo '### 1.6.1 Definitions' > defs.md
