@@ -237,7 +237,7 @@ ul#markdown-toc {
 }
 
 ul#markdown-toc ul {
-  padding-left: 0;
+  padding-left: 1.5em;
   list-style-type: none;  
 }
 
