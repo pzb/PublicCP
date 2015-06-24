@@ -47,6 +47,8 @@ FILES.each do |fname|
             headings[heading] = buffer.strip
           elsif (buffer.strip == "No stipulation.") && (headings[heading].strip.length > 0)
             # Do not append content with "No stipulation.", as that makes no sense
+          elsif (buffer =~ /^{/)
+            headings[heading] += buffer.strip + "\n"
           else
             headings[heading] += "\n" + buffer.strip + "\n"
           end
