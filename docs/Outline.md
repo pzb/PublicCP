@@ -8,6 +8,7 @@
 
 # 1. INTRODUCTION
 ## 1.1 Overview
+### 1.1.1 Compliance
 ## 1.2 Document name and identification
 ## 1.3 PKI participants
 ### 1.3.1 Certification authorities
@@ -62,7 +63,12 @@
 # 4. CERTIFICATE LIFE-CYCLE OPERATIONAL REQUIREMENTS
 ## 4.1 Certificate Application
 ### 4.1.1 Who can submit a certificate application
+#### 4.1.1.1 Private Organization Subjects
+#### 4.1.1.2 Government Entity Subjects
+#### 4.1.1.3 Business Entity Subjects
+#### 4.1.1.4 Non-Commercial Entity Subjects
 ### 4.1.2 Enrollment process and responsibilities
+#### 4.1.2.1 Applicant roles
 ## 4.2 Certificate application processing
 ### 4.2.1 Performing identification and authentication functions
 ### 4.2.2 Approval or rejection of certificate applications
@@ -180,6 +186,7 @@
 ## 6.1 Key pair generation and installation
 ### 6.1.1 Key pair generation
 #### 6.1.1.1 CA Key Pair Generation
+#### 6.1.1.2 RA Key Pair Generation
 #### 6.1.1.2 Subscriber Key Pair Generation
 ### 6.1.2 Private key delivery to subscriber
 ### 6.1.3 Public key delivery to certificate issuer
@@ -208,12 +215,29 @@
 ### 6.4.3 Other aspects of activation data
 ## 6.5 Computer security controls
 ### 6.5.1 Specific computer security technical requirements
+#### 6.5.1.1 Account Management
+#### 6.5.1.2 Least Privilege
+#### 6.5.1.3 Access Control Best Practices
+#### 6.5.1.4 Authentication: Passwords and Accounts
+#### 6.5.1.5 System Isolation and Partitioning
+#### 6.5.1.6 Malicious Code Protection
+#### 6.5.1.7 Software and Firmware Integrity
 ### 6.5.2 Computer security rating
 ## 6.6 Life cycle technical controls
 ### 6.6.1 System development controls
 ### 6.6.2 Security management controls
 ### 6.6.3 Life cycle security controls
 ## 6.7 Network security controls
+### 6.7.1 Boundary Systems
+#### 6.7.1.1 PKI Network Zones Overview
+#### 6.7.1.2 Special Access Zone Boundary
+#### 6.7.1.3 Restricted Zone Boundary
+#### 6.7.1.4 Operational Zone Boundary
+### 6.7.2 Network Monitoring
+#### 6.7.2.1 Monitoring devices
+#### 6.7.2.2 Monitoring of Security Alerts, Advisories, and Directives
+### 6.7.3 Remote Access/External Information Systems
+### 6.7.4 Penetration Testing
 ## 6.8 Time-stamping
 # 7. CERTIFICATE, CRL, AND OCSP PROFILES
 ## 7.1 Certificate profile
@@ -229,6 +253,8 @@
 #### 7.1.4.1 Issuing CA Certificate Subject
 #### 7.1.4.2 Subject Information for Standard Server Authentication certificates
 #### 7.1.4.3 Subject Alternative Names for Standard Server Authentication certificates
+#### 7.1.4.4 Subject Information for Extended Validation Server Authentication certificates
+#### 7.1.4.5 Subject Alternative Names for Extended Valdation Server Authentication certificates
 ### 7.1.5 Name constraints
 ### 7.1.6 Certificate policy object identifier
 #### 7.1.6.1. Reserved Certificate Policy Identifiers
